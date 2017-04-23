@@ -7,7 +7,7 @@ get('/') do
   erb(:index)
 end
 
-post ('/form') do
-  @queen = (params.fetch('queen')).queen_attack(params.fetch('player'))
+get ('/form') do
+  @queen = (params.fetch('queen').split("").map .map(&:to_i)).queen_attack(params.fetch('player').split("").map(&:to_i))
   erb(:index)
 end
