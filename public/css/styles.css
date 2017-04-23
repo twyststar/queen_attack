@@ -1,0 +1,16 @@
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+.black {
+  background-color: gray;
+}
+.black span {
+  color: white;
+}
+.queen {
+  background-color: blue;
+}
+td:hover {
+  background-color: yellow;
+}
