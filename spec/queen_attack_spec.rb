@@ -1,5 +1,6 @@
 require('rspec')
 require('queen_attack')
+require('pry')
 
 describe('Array#queen_attack') do
   it('return safe message if the coordinates are not horizontally, vertically, or diagonally aligned with each other') do

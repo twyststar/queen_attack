@@ -1,5 +1,6 @@
 require('capybara/rspec')
 require('./app.rb')
+require('pry')
 Capybara.app = Sinatra::Application
 set(:show_execptions, false)
 
