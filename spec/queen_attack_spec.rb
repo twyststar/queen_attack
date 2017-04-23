@@ -15,4 +15,7 @@ describe('Array#queen_attack') do
   it('return queen attack message if queen is aligned on NW-SE diagonal line') do
     expect(([1, 1]).queen_attack([4,4])).to(eq("Queen attacks on NW-SE diagonal!"))
   end
+  it('return queen attack message if queen is aligned vertically or horizontally') do
+    expect(([1, 1]).queen_attack([1,1])).to(eq("You can't stand on the same square."))
+  end
 end
