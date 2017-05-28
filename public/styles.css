@@ -1,0 +1,33 @@
+td {
+  border: 2px solid black;
+  padding: 6px;
+}
+
+.black {
+  background-color: gray;
+}
+.black span {
+  color: white;
+}
+
+.queen {
+  background-image: url('/img/queen.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gray-pawn {
+  background-image: url('/img/pawn.png');
+  background-size: contain;
+}
+.green-pawn {
+  background-image: url('/img/greenpawn.jpeg');
+  background-size: contain;
+}
+.red-pawn {
+  background-image: url('/img/redpawn.png');
+  background-size: contain;
+}
+
+#player, #queen {
+  display: none;
+}
